@@ -3,7 +3,7 @@ import requests
 
 TOKEN = os.getenv("WHATSAPP_TOKEN")
 PHONE_NUMBER_ID = os.getenv("WHATSAPP_PHONE_NUMBER_ID")
-RECIPIENT_PHONE = "923XXXXXXXXX"  # یہاں اپنا واٹس ایپ نمبر لکھیں
+RECIPIENT_PHONE = "923026728745"  # یہاں اپنا واٹس ایپ نمبر لکھیں
 
 def send_whatsapp_message():
     url = f"https://graph.facebook.com/v17.0/{PHONE_NUMBER_ID}/messages"
